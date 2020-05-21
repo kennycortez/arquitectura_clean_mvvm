@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/casePeru" android:title="Casos en el Perú" android:icon="@drawable/ic_menu_manage"/>
+    <item android:id="@+id/country" android:title="Países infectados" android:icon="@drawable/ic_menu_manage"/>
+    <item android:id="@+id/caseMap" android:title="Mapa de casos" android:icon="@drawable/ic_menu_manage"/>
+    <item android:id="@+id/dataGlobal" android:title="Datos Globales" android:icon="@drawable/ic_menu_manage"/>
+
+
+</menu>

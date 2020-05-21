@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="EM0DisplaySDPrimary700L">
+        <item name="android:textSize">36sp</item>
+        <item name="android:lineSpacingMultiplier">1.28</item>
+        <item name="android:textColor">@color/secondary_700</item>
+    </style>
+
+</resources>

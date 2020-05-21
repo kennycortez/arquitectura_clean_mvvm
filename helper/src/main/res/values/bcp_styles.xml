@@ -1,0 +1,3109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="m_3_h3_b_primary_700_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_2_h2_b_primary_700_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_1_h1_b_primary_700_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:lineSpacingExtra">12sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_0_display_s_b_primary_700_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_0_display_m_b_primary_700_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">44sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_0_display_l_b_primary_700_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">52sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_3_h3_b_primary_700_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_2_h2_b_primary_700_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_1_h1_b_primary_700_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">12sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_0_display_s_b_primary_700_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_0_display_m_b_primary_700_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">44sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_0_display_l_b_primary_700_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">52sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_3_h3_b_text_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_2_h2_b_text_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_1_h1_b_text_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:lineSpacingExtra">12sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_0_display_s_b_text_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_0_display_m_b_text_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">44sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_0_display_l_b_text_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">52sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_3_h3_b_text_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_2_h2_b_text_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_1_h1_b_text_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">12sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_0_display_s_b_text_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_0_display_m_b_text_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">44sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_0_display_l_b_text_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">52sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_3_h3_b_white_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_2_h2_b_white_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_1_h1_b_white_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:lineSpacingExtra">12sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_0_display_s_b_white_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_0_display_m_b_white_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">44sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_0_display_l_b_white_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">52sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_3_h3_b_white_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_2_h2_b_white_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_1_h1_b_white_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">12sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_0_display_s_b_white_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_0_display_m_b_white_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">44sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_0_display_l_b_white_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">52sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_3_h3_d_primary_700_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_2_h2_d_primary_700_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_1_h1_d_primary_700_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:lineSpacingExtra">12sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_0_display_s_d_primary_700_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_0_display_m_d_primary_700_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">44sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_0_display_l_d_primary_700_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">52sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_3_h3_d_primary_700_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_2_h2_d_primary_700_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_1_h1_d_primary_700_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">12sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_0_display_s_d_primary_700_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_0_display_m_d_primary_700_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">44sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_0_display_l_d_primary_700_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">52sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_3_h3_d_text_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_2_h2_d_text_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_1_h1_d_text_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:lineSpacingExtra">12sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_0_display_s_d_text_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_0_display_m_d_text_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">44sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_0_display_l_d_text_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">52sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_3_h3_d_text_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_2_h2_d_text_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_1_h1_d_text_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">12sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_0_display_s_d_text_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_0_display_m_d_text_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">44sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_0_display_l_d_text_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">52sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_3_h3_d_white_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_2_h2_d_white_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_1_h1_d_white_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:lineSpacingExtra">12sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_0_display_s_d_white_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_0_display_m_d_white_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">44sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_0_display_l_d_white_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">52sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_3_h3_d_white_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_2_h2_d_white_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_1_h1_d_white_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">12sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_0_display_s_d_white_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_0_display_m_d_white_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">44sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_0_display_l_d_white_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">52sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_3_h3_r_primary_700_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_2_h2_r_primary_700_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_1_h1_r_primary_700_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:lineSpacingExtra">12sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_0_display_s_r_primary_700_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_0_display_m_r_primary_700_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">44sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_0_display_l_r_primary_700_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">52sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_3_h3_r_primary_700_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_2_h2_r_primary_700_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_1_h1_r_primary_700_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">12sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_0_display_s_r_primary_700_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_0_display_m_r_primary_700_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">44sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_0_display_l_r_primary_700_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">52sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_3_h3_r_text_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_2_h2_r_text_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_1_h1_r_text_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:lineSpacingExtra">12sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_0_display_s_r_text_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_0_display_m_r_text_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">44sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_0_display_l_r_text_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">52sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_3_h3_r_text_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_2_h2_r_text_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_1_h1_r_text_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">12sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_0_display_s_r_text_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_0_display_m_r_text_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">44sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_0_display_l_r_text_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">52sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_3_h3_r_white_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_2_h2_r_white_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_1_h1_r_white_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:lineSpacingExtra">12sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_0_display_s_r_white_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_0_display_m_r_white_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">44sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_0_display_l_r_white_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">52sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_3_h3_r_white_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_2_h2_r_white_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_1_h1_r_white_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">12sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_0_display_s_r_white_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_0_display_m_r_white_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">44sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_0_display_l_r_white_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">52sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_3_h3_b_onsurface_500_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_2_h2_b_onsurface_500_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_1_h1_b_onsurface_500_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:lineSpacingExtra">12sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_0_display_s_b_onsurface_500_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_0_display_m_b_onsurface_500_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">44sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_0_display_l_b_onsurface_500_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">52sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_3_h3_b_onsurface_500_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_2_h2_b_onsurface_500_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_1_h1_b_onsurface_500_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">12sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_0_display_s_b_onsurface_500_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_0_display_m_b_onsurface_500_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">44sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_0_display_l_b_onsurface_500_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">52sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_3_h3_d_onsurface_500_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_2_h2_d_onsurface_500_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_1_h1_d_onsurface_500_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:lineSpacingExtra">12sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_0_display_s_d_onsurface_500_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_0_display_m_d_onsurface_500_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">44sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_0_display_l_d_onsurface_500_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">52sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_3_h3_d_onsurface_500_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_2_h2_d_onsurface_500_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_1_h1_d_onsurface_500_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">12sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_0_display_s_d_onsurface_500_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_0_display_m_d_onsurface_500_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">44sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_0_display_l_d_onsurface_500_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">52sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_3_h3_r_onsurface_500_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_2_h2_r_onsurface_500_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_1_h1_r_onsurface_500_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:lineSpacingExtra">12sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_0_display_s_r_onsurface_500_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_0_display_m_r_onsurface_500_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">44sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_0_display_l_r_onsurface_500_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">52sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_3_h3_r_onsurface_500_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_2_h2_r_onsurface_500_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_1_h1_r_onsurface_500_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">12sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_0_display_s_r_onsurface_500_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_0_display_m_r_onsurface_500_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">44sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_0_display_l_r_onsurface_500_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">52sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_4_paragraph_l_b_primary_700_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_4_paragraph_l_b_primary_700_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_4_paragraph_l_b_text_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_4_paragraph_l_b_text_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_4_paragraph_l_b_onsurface_500_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_4_paragraph_l_b_onsurface_500_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_4_paragraph_l_b_white_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_l_b_white_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/white_80</item>
+    </style>
+
+    <style name="m_4_paragraph_m_b_primary_700_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_4_paragraph_m_b_primary_700_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_4_paragraph_m_b_text_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_4_paragraph_m_b_text_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_4_paragraph_m_b_onsurface_500_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_4_paragraph_m_b_onsurface_500_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_4_paragraph_m_b_white_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_m_b_white_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_s_b_primary_700_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_4_paragraph_s_b_primary_700_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_4_paragraph_s_b_text_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_4_paragraph_s_b_text_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_4_paragraph_s_b_onsurface_500_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_4_paragraph_s_b_onsurface_500_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_4_paragraph_s_b_white_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_s_b_white_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_l_d_primary_700_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_4_paragraph_l_r_primary_700_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_4_paragraph_l_d_primary_700_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_4_paragraph_l_r_primary_700_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_4_paragraph_l_d_text_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_4_paragraph_l_r_text_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_4_paragraph_l_d_text_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_4_paragraph_l_r_text_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_4_paragraph_l_d_onsurface_500_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_4_paragraph_l_r_onsurface_500_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_4_paragraph_l_d_onsurface_500_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_4_paragraph_l_r_onsurface_500_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_4_paragraph_l_d_white_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_l_r_white_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_l_d_white_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_l_r_white_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_m_d_primary_700_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_4_paragraph_m_r_primary_700_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_4_paragraph_m_d_primary_700_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_4_paragraph_m_r_primary_700_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_4_paragraph_m_d_text_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_4_paragraph_m_r_text_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_4_paragraph_m_d_text_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_4_paragraph_m_r_text_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_4_paragraph_m_d_onsurface_500_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_4_paragraph_m_r_onsurface_500_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_4_paragraph_m_d_onsurface_500_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_4_paragraph_m_r_onsurface_500_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_4_paragraph_m_d_white_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_m_r_white_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_m_d_white_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_m_r_white_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_s_d_primary_700_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_4_paragraph_s_r_primary_700_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_4_paragraph_s_d_primary_700_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_4_paragraph_s_r_primary_700_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary_700</item>
+    </style>
+
+    <style name="m_4_paragraph_s_d_text_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_4_paragraph_s_r_text_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_4_paragraph_s_d_text_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_4_paragraph_s_r_text_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="m_4_paragraph_s_d_onsurface_500_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_4_paragraph_s_r_onsurface_500_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_4_paragraph_s_d_onsurface_500_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_4_paragraph_s_r_onsurface_500_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_500</item>
+    </style>
+
+    <style name="m_4_paragraph_s_d_white_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_s_r_white_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_s_d_white_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_s_r_white_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_l_b_success_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/success</item>
+    </style>
+
+    <style name="m_4_paragraph_l_b_success_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/success</item>
+    </style>
+
+    <style name="m_4_paragraph_m_b_success_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/success</item>
+    </style>
+
+    <style name="m_4_paragraph_m_b_success_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/success</item>
+    </style>
+
+    <style name="m_4_paragraph_s_b_success_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/success</item>
+    </style>
+
+    <style name="m_4_paragraph_s_b_success_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/success</item>
+    </style>
+
+    <style name="m_4_paragraph_l_d_success_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/success</item>
+    </style>
+
+    <style name="m_4_paragraph_l_r_success_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/success</item>
+    </style>
+
+    <style name="m_4_paragraph_l_d_success_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/success</item>
+    </style>
+
+    <style name="m_4_paragraph_l_r_success_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/success</item>
+    </style>
+
+    <style name="m_4_paragraph_m_d_success_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/success</item>
+    </style>
+
+    <style name="m_4_paragraph_m_r_success_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/success</item>
+    </style>
+
+    <style name="m_4_paragraph_m_d_success_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/success</item>
+    </style>
+
+    <style name="m_4_paragraph_m_r_success_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/success</item>
+    </style>
+
+    <style name="m_4_paragraph_s_d_success_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/success</item>
+    </style>
+
+    <style name="m_4_paragraph_s_r_success_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/success</item>
+    </style>
+
+    <style name="m_4_paragraph_s_d_success_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/success</item>
+    </style>
+
+    <style name="m_4_paragraph_s_r_success_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/success</item>
+    </style>
+
+    <style name="m_4_paragraph_l_b_error_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/error</item>
+    </style>
+
+    <style name="m_4_paragraph_l_b_error_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/error</item>
+    </style>
+
+    <style name="m_4_paragraph_m_b_error_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/error</item>
+    </style>
+
+    <style name="m_4_paragraph_m_b_error_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/error</item>
+    </style>
+
+    <style name="m_4_paragraph_s_b_error_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/error</item>
+    </style>
+
+    <style name="m_4_paragraph_s_b_error_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/error</item>
+    </style>
+
+    <style name="m_4_paragraph_l_d_error_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/error</item>
+    </style>
+
+    <style name="m_4_paragraph_l_r_error_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/error</item>
+    </style>
+
+    <style name="m_4_paragraph_l_d_error_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/error</item>
+    </style>
+
+    <style name="m_4_paragraph_l_r_error_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/error</item>
+    </style>
+
+    <style name="m_4_paragraph_m_d_error_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/error</item>
+    </style>
+
+    <style name="m_4_paragraph_m_r_error_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/error</item>
+    </style>
+
+    <style name="m_4_paragraph_m_d_error_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/error</item>
+    </style>
+
+    <style name="m_4_paragraph_m_r_error_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/error</item>
+    </style>
+
+    <style name="m_4_paragraph_s_d_error_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/error</item>
+    </style>
+
+    <style name="m_4_paragraph_s_r_error_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/error</item>
+    </style>
+
+    <style name="m_4_paragraph_s_d_error_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/error</item>
+    </style>
+
+    <style name="m_4_paragraph_s_r_error_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/error</item>
+    </style>
+
+    <style name="m_4_paragraph_l_b_attention_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/attention</item>
+    </style>
+
+    <style name="m_4_paragraph_l_b_attention_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/attention</item>
+    </style>
+
+    <style name="m_4_paragraph_m_b_attention_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/attention</item>
+    </style>
+
+    <style name="m_4_paragraph_m_b_attention_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/attention</item>
+    </style>
+
+    <style name="m_4_paragraph_s_b_attention_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/attention</item>
+    </style>
+
+    <style name="m_4_paragraph_s_b_attention_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/attention</item>
+    </style>
+
+    <style name="m_4_paragraph_l_d_attention_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/attention</item>
+    </style>
+
+    <style name="m_4_paragraph_l_r_attention_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/attention</item>
+    </style>
+
+    <style name="m_4_paragraph_l_d_attention_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/attention</item>
+    </style>
+
+    <style name="m_4_paragraph_l_r_attention_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/attention</item>
+    </style>
+
+    <style name="m_4_paragraph_m_d_attention_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/attention</item>
+    </style>
+
+    <style name="m_4_paragraph_m_r_attention_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/attention</item>
+    </style>
+
+    <style name="m_4_paragraph_m_d_attention_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/attention</item>
+    </style>
+
+    <style name="m_4_paragraph_m_r_attention_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/attention</item>
+    </style>
+
+    <style name="m_4_paragraph_s_d_attention_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/attention</item>
+    </style>
+
+    <style name="m_4_paragraph_s_r_attention_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/attention</item>
+    </style>
+
+    <style name="m_4_paragraph_s_d_attention_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/attention</item>
+    </style>
+
+    <style name="m_4_paragraph_s_r_attention_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/attention</item>
+    </style>
+
+    <style name="m_4_paragraph_l_b_white_30_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/white_30</item>
+    </style>
+
+    <style name="m_4_paragraph_l_b_white_30_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/white_30</item>
+    </style>
+
+    <style name="m_4_paragraph_m_b_white_30_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_m_b_white_30_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_s_b_white_30_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_s_b_white_30_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_l_d_white_30_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_l_r_white_30_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_l_d_white_30_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_l_r_white_30_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_m_d_white_30_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_m_r_white_30_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_m_d_white_30_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_m_r_white_30_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_s_d_white_30_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_s_r_white_30_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_s_d_white_30_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_s_r_white_30_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_l_b_onsurface_600_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/onsurface_600</item>
+    </style>
+
+    <style name="m_4_paragraph_l_b_onsurface_600_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/onsurface_600</item>
+    </style>
+
+    <style name="m_4_paragraph_m_b_onsurface_600_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_600</item>
+    </style>
+
+    <style name="m_4_paragraph_m_b_onsurface_600_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_600</item>
+    </style>
+
+    <style name="m_4_paragraph_s_b_onsurface_600_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_600</item>
+    </style>
+
+    <style name="m_4_paragraph_s_b_onsurface_600_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_600</item>
+    </style>
+
+    <style name="m_4_paragraph_l_d_onsurface_600_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/onsurface_600</item>
+    </style>
+
+    <style name="m_4_paragraph_l_r_onsurface_600_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/onsurface_600</item>
+    </style>
+
+    <style name="m_4_paragraph_l_d_onsurface_600_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/onsurface_600</item>
+    </style>
+
+    <style name="m_4_paragraph_l_r_onsurface_600_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/onsurface_600</item>
+    </style>
+
+    <style name="m_4_paragraph_m_d_onsurface_600_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_600</item>
+    </style>
+
+    <style name="m_4_paragraph_m_r_onsurface_600_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_600</item>
+    </style>
+
+    <style name="m_4_paragraph_m_d_onsurface_600_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_600</item>
+    </style>
+
+    <style name="m_4_paragraph_m_r_onsurface_600_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_600</item>
+    </style>
+
+    <style name="m_4_paragraph_s_d_onsurface_600_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_600</item>
+    </style>
+
+    <style name="m_4_paragraph_s_r_onsurface_600_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_600</item>
+    </style>
+
+    <style name="m_4_paragraph_s_d_onsurface_600_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_600</item>
+    </style>
+
+    <style name="m_4_paragraph_s_r_onsurface_600_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_600</item>
+    </style>
+
+    <style name="m_4_paragraph_l_b_primary_400_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/primary_400</item>
+    </style>
+
+    <style name="m_4_paragraph_l_b_primary_400_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/primary_400</item>
+    </style>
+
+    <style name="m_4_paragraph_m_b_primary_400_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary_400</item>
+    </style>
+
+    <style name="m_4_paragraph_m_b_primary_400_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary_400</item>
+    </style>
+
+    <style name="m_4_paragraph_s_b_primary_400_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary_400</item>
+    </style>
+
+    <style name="m_4_paragraph_s_b_primary_400_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary_400</item>
+    </style>
+
+    <style name="m_4_paragraph_l_d_primary_400_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/primary_400</item>
+    </style>
+
+    <style name="m_4_paragraph_l_r_primary_400_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/primary_400</item>
+    </style>
+
+    <style name="m_4_paragraph_l_d_primary_400_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/primary_400</item>
+    </style>
+
+    <style name="m_4_paragraph_l_r_primary_400_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/primary_400</item>
+    </style>
+
+    <style name="m_4_paragraph_m_d_primary_400_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary_400</item>
+    </style>
+
+    <style name="m_4_paragraph_m_r_primary_400_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary_400</item>
+    </style>
+
+    <style name="m_4_paragraph_m_d_primary_400_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary_400</item>
+    </style>
+
+    <style name="m_4_paragraph_m_r_primary_400_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary_400</item>
+    </style>
+
+    <style name="m_4_paragraph_s_d_primary_400_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary_400</item>
+    </style>
+
+    <style name="m_4_paragraph_s_r_primary_400_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary_400</item>
+    </style>
+
+    <style name="m_4_paragraph_s_d_primary_400_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary_400</item>
+    </style>
+
+    <style name="m_4_paragraph_s_r_primary_400_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary_400</item>
+    </style>
+
+    <style name="m_4_paragraph_l_b_secondary_500_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/secondary_500</item>
+    </style>
+
+    <style name="m_4_paragraph_l_b_secondary_500_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/secondary_500</item>
+    </style>
+
+    <style name="m_4_paragraph_m_b_secondary_500_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/secondary_500</item>
+    </style>
+
+    <style name="m_4_paragraph_m_b_secondary_500_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/secondary_500</item>
+    </style>
+
+    <style name="m_4_paragraph_s_b_secondary_500_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/secondary_500</item>
+    </style>
+
+    <style name="m_4_paragraph_s_b_secondary_500_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/secondary_500</item>
+    </style>
+
+    <style name="m_4_paragraph_l_d_secondary_500_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/secondary_500</item>
+    </style>
+
+    <style name="m_4_paragraph_l_r_secondary_500_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/secondary_500</item>
+    </style>
+
+    <style name="m_4_paragraph_l_d_secondary_500_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/secondary_500</item>
+    </style>
+
+    <style name="m_4_paragraph_l_r_secondary_500_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/secondary_500</item>
+    </style>
+
+    <style name="m_4_paragraph_m_d_secondary_500_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/secondary_500</item>
+    </style>
+
+    <style name="m_4_paragraph_m_r_secondary_500_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/secondary_500</item>
+    </style>
+
+    <style name="m_4_paragraph_m_d_secondary_500_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/secondary_500</item>
+    </style>
+
+    <style name="m_4_paragraph_m_r_secondary_500_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/secondary_500</item>
+    </style>
+
+    <style name="m_4_paragraph_s_d_secondary_500_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/secondary_500</item>
+    </style>
+
+    <style name="m_4_paragraph_s_r_secondary_500_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/secondary_500</item>
+    </style>
+
+    <style name="m_4_paragraph_s_d_secondary_500_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/secondary_500</item>
+    </style>
+
+    <style name="m_4_paragraph_s_r_secondary_500_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/secondary_500</item>
+    </style>
+
+    <style name="m_4_paragraph_l_b_onsurface_800_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/onsurface_800</item>
+    </style>
+
+    <style name="m_4_paragraph_l_b_onsurface_800_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/onsurface_800</item>
+    </style>
+
+    <style name="m_4_paragraph_m_b_onsurface_800_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_800</item>
+    </style>
+
+    <style name="m_4_paragraph_m_b_onsurface_800_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_800</item>
+    </style>
+
+    <style name="m_4_paragraph_s_b_onsurface_800_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_800</item>
+    </style>
+
+    <style name="m_4_paragraph_s_b_onsurface_800_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_800</item>
+    </style>
+
+    <style name="m_4_paragraph_l_d_onsurface_800_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/onsurface_800</item>
+    </style>
+
+    <style name="m_4_paragraph_l_r_onsurface_800_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/onsurface_800</item>
+    </style>
+
+    <style name="m_4_paragraph_l_d_onsurface_800_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/onsurface_800</item>
+    </style>
+
+    <style name="m_4_paragraph_l_r_onsurface_800_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/onsurface_800</item>
+    </style>
+
+    <style name="m_4_paragraph_m_d_onsurface_800_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_800</item>
+    </style>
+
+    <style name="m_4_paragraph_m_r_onsurface_800_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_800</item>
+    </style>
+
+    <style name="m_4_paragraph_m_d_onsurface_800_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_800</item>
+    </style>
+
+    <style name="m_4_paragraph_m_r_onsurface_800_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_800</item>
+    </style>
+
+    <style name="m_4_paragraph_s_d_onsurface_800_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_800</item>
+    </style>
+
+    <style name="m_4_paragraph_s_r_onsurface_800_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_800</item>
+    </style>
+
+    <style name="m_4_paragraph_s_d_onsurface_800_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_800</item>
+    </style>
+
+    <style name="m_4_paragraph_s_r_onsurface_800_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_800</item>
+    </style>
+
+    <style name="m_4_paragraph_l_b_primary_500_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/primary_500</item>
+    </style>
+
+    <style name="m_4_paragraph_l_b_primary_500_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/primary_500</item>
+    </style>
+
+    <style name="m_4_paragraph_m_b_primary_500_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary_500</item>
+    </style>
+
+    <style name="m_4_paragraph_m_b_primary_500_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary_500</item>
+    </style>
+
+    <style name="m_4_paragraph_s_b_primary_500_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary_500</item>
+    </style>
+
+    <style name="m_4_paragraph_s_b_primary_500_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary_500</item>
+    </style>
+
+    <style name="m_4_paragraph_l_d_primary_500_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/primary_500</item>
+    </style>
+
+    <style name="m_4_paragraph_l_r_primary_500_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/primary_500</item>
+    </style>
+
+    <style name="m_4_paragraph_l_d_primary_500_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/primary_500</item>
+    </style>
+
+    <style name="m_4_paragraph_l_r_primary_500_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/primary_500</item>
+    </style>
+
+    <style name="m_4_paragraph_m_d_primary_500_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary_500</item>
+    </style>
+
+    <style name="m_4_paragraph_m_r_primary_500_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary_500</item>
+    </style>
+
+    <style name="m_4_paragraph_m_d_primary_500_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary_500</item>
+    </style>
+
+    <style name="m_4_paragraph_m_r_primary_500_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary_500</item>
+    </style>
+
+    <style name="m_4_paragraph_s_d_primary_500_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary_500</item>
+    </style>
+
+    <style name="m_4_paragraph_s_r_primary_500_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary_500</item>
+    </style>
+
+    <style name="m_4_paragraph_s_d_primary_500_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary_500</item>
+    </style>
+
+    <style name="m_4_paragraph_s_r_primary_500_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/primary_500</item>
+    </style>
+
+    <style name="m_4_paragraph_l_b_onsurface_200_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/onsurface_200</item>
+    </style>
+
+    <style name="m_4_paragraph_l_b_onsurface_200_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/onsurface_200</item>
+    </style>
+
+    <style name="m_4_paragraph_m_b_onsurface_200_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_200</item>
+    </style>
+
+    <style name="m_4_paragraph_m_b_onsurface_200_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_200</item>
+    </style>
+
+    <style name="m_4_paragraph_s_b_onsurface_200_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_200</item>
+    </style>
+
+    <style name="m_4_paragraph_s_b_onsurface_200_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_200</item>
+    </style>
+
+    <style name="m_4_paragraph_l_d_onsurface_200_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/onsurface_200</item>
+    </style>
+
+    <style name="m_4_paragraph_l_r_onsurface_200_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/onsurface_200</item>
+    </style>
+
+    <style name="m_4_paragraph_l_d_onsurface_200_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/onsurface_200</item>
+    </style>
+
+    <style name="m_4_paragraph_l_r_onsurface_200_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/onsurface_200</item>
+    </style>
+
+    <style name="m_4_paragraph_m_d_onsurface_200_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_200</item>
+    </style>
+
+    <style name="m_4_paragraph_m_r_onsurface_200_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_200</item>
+    </style>
+
+    <style name="m_4_paragraph_m_d_onsurface_200_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_200</item>
+    </style>
+
+    <style name="m_4_paragraph_m_r_onsurface_200_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_200</item>
+    </style>
+
+    <style name="m_4_paragraph_s_d_onsurface_200_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_200</item>
+    </style>
+
+    <style name="m_4_paragraph_s_r_onsurface_200_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_200</item>
+    </style>
+
+    <style name="m_4_paragraph_s_d_onsurface_200_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_200</item>
+    </style>
+
+    <style name="m_4_paragraph_s_r_onsurface_200_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/onsurface_200</item>
+    </style>
+
+    <style name="m_4_paragraph_l_b_white_80_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/white_80</item>
+    </style>
+
+    <style name="m_4_paragraph_l_b_white_80_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/white_80</item>
+    </style>
+
+    <style name="m_4_paragraph_m_b_white_80_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_m_b_white_80_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_s_b_white_80_l">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_s_b_white_80_c">
+        <item name="android:fontFamily">@font/flexo_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_l_d_white_80_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_l_r_white_80_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_l_d_white_80_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_l_r_white_80_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_m_d_white_80_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_m_r_white_80_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_m_d_white_80_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_m_r_white_80_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_s_d_white_80_l">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_s_r_white_80_l">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_s_d_white_80_c">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="m_4_paragraph_s_r_white_80_c">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BCPTheme" parent="BaseTheme">
+        <item name="android:fontFamily">@font/flexo_demi</item>
+        <item name="colorPrimary">@color/primary_700</item>
+        <item name="colorPrimaryDark">@color/primary_900</item>
+        <item name="colorAccent">@color/secondary_500</item>
+        <item name="colorAccentVariant">@color/secondary_700</item>
+        <item name="colorBackground">@color/white</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorError">@color/error</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorOnBackground">@color/text</item>
+        <item name="colorOnSurface">@color/text</item>
+        <item name="colorOnError">@color/white</item>
+        <item name="colorOnDisable">@color/text</item>
+        <item name="fontType">@font/flexo_demi</item>
+        <item name="alertLight">@color/alert_light</item>
+        <item name="customButton">@style/ButtonCPTheme</item>
+    </style>
+
+    <style name="ButtonCPTheme" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">?attr/colorSurface</item>
+        <item name="android:background">?attr/colorAccent</item>
+    </style>
+
+
+</resources>

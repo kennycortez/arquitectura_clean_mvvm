@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="EnaltaTheme" parent="BaseTheme">
+        <item name="android:fontFamily">@font/flexo_regular</item>
+        <item name="colorPrimary">@color/enalta_primary_700</item>
+        <item name="colorPrimaryDark">@color/enalta_primary_900</item>
+        <item name="colorAccent">@color/enalta_primary_500</item>
+        <item name="colorAccentVariant">@color/enalta_primary_200</item>
+        <item name="colorBackground">@color/white</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorError">@color/enalta_error</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorOnBackground">@color/text</item>
+        <item name="colorOnSurface">@color/text</item>
+        <item name="colorOnError">@color/white</item>
+        <item name="colorOnDisable">@color/text</item>
+        <item name="fontType">@font/flexo_regular</item>
+        <item name="alertLight">@color/alert_light</item>
+        <item name="customButton">@style/ButtonEnaltaTheme</item>
+    </style>
+
+    <style name="ButtonEnaltaTheme" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">?attr/colorSurface</item>
+        <item name="android:background">?attr/colorAccent</item>
+    </style>
+
+</resources>

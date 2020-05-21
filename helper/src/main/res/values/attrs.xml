@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="colorAccentVariant" format="reference"/>
+    <attr name="colorBackground" format="reference"/>
+    <attr name="colorSurface" format="reference"/>
+    <attr name="colorOnPrimary" format="reference"/>
+    <attr name="colorOnSecondary" format="reference"/>
+    <attr name="colorOnBackground" format="reference"/>
+    <attr name="colorOnSurface" format="reference"/>
+    <attr name="colorOnError" format="reference"/>
+    <attr name="colorDisable" format="reference"/>
+    <attr name="colorOnDisable" format="reference"/>
+    <attr name="fontType" format="reference"/>
+    <attr name="alertLight" format="reference"/>
+
+    <!-- For demo -->
+    <attr name="customButton" format="reference"/>
+
+</resources>

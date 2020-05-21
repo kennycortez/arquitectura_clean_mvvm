@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- bcp theme -->
+    <color name="primary_900">#001f5a</color>
+    <color name="primary_800">#002473</color>
+    <color name="primary_700">#002a8d</color>
+    <color name="primary_600">#002da0</color>
+    <color name="primary_500">#0030b3</color>
+    <color name="primary_400">#0a47f0</color>
+    <color name="primary_300">#3d77ff</color>
+    <color name="primary_200">#70a9ff</color>
+    <color name="primary_100">#b3d6ff</color>
+    <color name="primary_050">#e5f1ff</color>
+    <color name="secondary_900">#8f1100</color>
+    <color name="secondary_800">#b02b00</color>
+    <color name="secondary_700">#ca4500</color>
+    <color name="secondary_600">#e45e00</color>
+    <color name="secondary_500">#ff7800</color>
+    <color name="secondary_400">#ff961f</color>
+    <color name="secondary_300">#ffa733</color>
+    <color name="secondary_200">#ffbb5c</color>
+    <color name="secondary_100">#ffd89f</color>
+    <color name="secondary_050">#fff7e5</color>
+    <color name="background_900">#264b78</color>
+    <color name="background_800">#3c5d86</color>
+    <color name="background_700">#527094</color>
+    <color name="background_600">#6982a3</color>
+    <color name="background_500">#7f95b1</color>
+    <color name="background_400">#95a7bf</color>
+    <color name="background_300">#acbace</color>
+    <color name="background_200">#c2ccdc</color>
+    <color name="background_100">#d8dfea</color>
+    <color name="background_050">#f2f4f8</color>
+    <color name="error">#e30425</color>
+    <color name="error_light">#fff2f5</color>
+    <color name="success">#6ac90f</color>
+    <color name="success_light">#f4ffea</color>
+    <color name="attention">#3f78bf</color>
+    <color name="attention_light">#f5f8ff</color>
+    <color name="alert">#ffcb1f</color>
+    <color name="alert_light">#fffded</color>
+    <color name="text">#202e44</color>
+    <color name="white">#ffffff</color>
+    <color name="complementary_600">#00d4aa</color>
+    <color name="complementary_400">#00f7cd</color>
+    <color name="complementary_200">#85f6e3</color>
+    <color name="analogous_700">#0759a4</color>
+    <color name="analogous_400">#48a3f3</color>
+    <color name="analogous_200">#a2dbff</color>
+    <color name="analogous_600">#5625b3</color>
+    <color name="analogous_300">#9877d3</color>
+    <color name="analogous_100">#d2c1f0</color>
+    <color name="onsurface_900">#4d5b70</color>
+    <color name="onsurface_800">#606c7f</color>
+    <color name="onsurface_700">#737e8e</color>
+    <color name="onsurface_600">#868f9e</color>
+    <color name="onsurface_500">#99a1ad</color>
+    <color name="onsurface_400">#acb2bd</color>
+    <color name="onsurface_300">#bfc4cc</color>
+    <color name="onsurface_200">#d2d5dc</color>
+    <color name="onsurface_100">#e5e7eb</color>
+    <color name="onsurface_050">#f4f4f6</color>
+    <color name="white_90">#e6ffffff</color>
+    <color name="white_80">#ccffffff</color>
+    <color name="white_70">#b3ffffff</color>
+    <color name="white_60">#99ffffff</color>
+    <color name="white_50">#80ffffff</color>
+    <color name="white_40">#66ffffff</color>
+    <color name="white_30">#4cffffff</color>
+    <color name="white_20">#33ffffff</color>
+    <color name="white_10">#19ffffff</color>
+    <color name="white_0">#00ffffff</color>
+    <color name="text_90">#e6202e44</color>
+    <color name="text_80">#cc202e44</color>
+    <color name="text_70">#b3202e44</color>
+    <color name="text_60">#99202e44</color>
+    <color name="text_50">#80202e44</color>
+    <color name="text_40">#66202e44</color>
+    <color name="text_30">#4c202e44</color>
+    <color name="text_20">#33202e44</color>
+    <color name="text_10">#19202e44</color>
+    <color name="text_0">#00202e44</color>
+    <color name="secondary_200_20">#33ffbb5c</color>
+    <!-- /bcp theme-->
+
+
+    <!-- enalta theme-->
+    <color name="enalta_primary_900">#4d0032</color>
+    <color name="enalta_primary_700">#741753</color>
+    <color name="enalta_primary_500">#9c3e7a</color>
+    <color name="enalta_primary_200">#d797c0</color>
+    <color name="enalta_disabled">#caced6</color>
+    <color name="enalta_disabled_dark">#adb4bf</color>
+    <color name="enalta_text">#202e44</color>
+    <color name="enalta_success">#1fae29</color>
+    <color name="enalta_error">#ae0c24</color>
+    <color name="enalta_attention">#355d8f</color>
+    <color name="enalta_alert">#ffb84d</color>
+    <color name="enalta_alert_light">#fcf5e8</color>
+    <color name="enalta_attention_light">#e3f0fe</color>
+    <color name="enalta_error_light">#ffe8eb</color>
+    <color name="enalta_success_light">#f1ffea</color>
+    <!-- /enalta theme -->
+
+</resources>
