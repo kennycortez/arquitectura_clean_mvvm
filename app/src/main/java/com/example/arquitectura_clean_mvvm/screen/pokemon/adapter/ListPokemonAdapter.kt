@@ -1,7 +1,7 @@
 package com.example.arquitectura_clean_mvvm.screen.pokemon.adapter
 
 import android.content.Context
-import android.graphics.BitmapFactory
+
 import android.media.MediaPlayer
 import android.view.LayoutInflater
 import android.view.View
@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.arquitectura_clean_mvvm.R
 import com.example.domain.model.PokemonModel
 import com.squareup.picasso.Picasso
-import java.net.URL
+
 
 
 class ListPokemonAdapter(private val listPokemon: List<PokemonModel>) : RecyclerView.Adapter<ListPokemonAdapter.ListPokemonViewHolder>() {
@@ -37,9 +37,7 @@ class ListPokemonAdapter(private val listPokemon: List<PokemonModel>) : Recycler
         holder.imagePokemon.setOnClickListener {
 
             try {
-                val nomPoke: String? = listPokemon[position].name
                 val nameAudio: String? = listPokemon[position].num
-                val imgPoke: String? = listPokemon[position].img
                 val resID = context!!.resources.getIdentifier("p$nameAudio", "raw", context!!.packageName)
                 val mediaPlayer = MediaPlayer.create(context, resID)
                 mediaPlayer.start()

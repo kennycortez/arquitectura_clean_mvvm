@@ -9,6 +9,8 @@ import com.example.arquitectura_clean_mvvm.screen.ScreenState
 import com.example.arquitectura_clean_mvvm.screen.pokemon.adapter.ListPokemonAdapter
 import com.example.domain.model.PokemonModel
 import com.example.helper.base.BaseActivity
+import com.example.storage.Storage
+import dagger.android.DaggerActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import org.koin.androidx.viewmodel.ext.android.viewModel
 

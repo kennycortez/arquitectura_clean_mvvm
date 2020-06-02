@@ -5,10 +5,12 @@ import com.example.data.mapper.Mapper
 import com.example.domain.model.NextEvolutionModel
 import com.example.domain.model.PokemonModel
 import com.example.domain.model.PrevEvolutionModel
+import javax.inject.Inject
 
-class PokemonMapper:Mapper<PokemonModel,PokemonEntity>() {
+class PokemonMapper @Inject constructor():Mapper<PokemonModel,PokemonEntity>() {
 
-    var nextEvolutionMapper = NextEvolutionMapper()
+    @Inject
+    lateinit var nextEvolutionMapper: NextEvolutionMapper
     var prevEvolutionMapper = PrevEvolutionMapper()
 
     override fun mapToEntity(type: List<PokemonEntity>): List<PokemonModel> {

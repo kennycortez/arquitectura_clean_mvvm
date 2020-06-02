@@ -15,5 +15,11 @@ class MyApplication: Application() {
             androidContext(this@MyApplication)
             modules(appModule)
         }
+
+        /*DaggerAppComponent.builder()
+            .application(this)
+            .build()
+            .inject(this)*/
     }
+
 }

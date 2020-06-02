@@ -3,8 +3,11 @@ package com.example.data.mapper.pokemon
 import com.example.data.entities.NextEvolutionEntity
 import com.example.data.mapper.Mapper
 import com.example.domain.model.NextEvolutionModel
+import javax.inject.Inject
+import javax.inject.Singleton
 
-class NextEvolutionMapper:Mapper<NextEvolutionModel,NextEvolutionEntity>() {
+@Singleton
+class NextEvolutionMapper @Inject constructor():Mapper<NextEvolutionModel,NextEvolutionEntity>() {
 
 
     override fun mapToEntity(type: List<NextEvolutionEntity>): List<NextEvolutionModel> {

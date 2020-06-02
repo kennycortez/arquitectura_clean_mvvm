@@ -4,10 +4,12 @@ import com.example.data.entities.PokemonResponseEntity
 import com.example.data.mapper.Mapper
 import com.example.domain.model.PokemonMasterModel
 import com.example.domain.model.PokemonModel
+import javax.inject.Inject
 
 class PokemonMasterMapper:Mapper<PokemonMasterModel,PokemonResponseEntity>() {
 
-    var pokemonMapper = PokemonMapper()
+    @Inject
+    lateinit var pokemonMapper:PokemonMapper
 
     override fun mapToEntity(type: PokemonResponseEntity): PokemonMasterModel {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
