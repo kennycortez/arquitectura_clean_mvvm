@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/domain" />
             <option value="$PROJECT_DIR$/helper" />
             <option value="$PROJECT_DIR$/networking" />
+            <option value="$PROJECT_DIR$/storage" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

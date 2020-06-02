@@ -200,3 +200,7 @@ bapp/src/main/java/com/example/arquitectura_clean_mvvm/screen/pokemon/adapter/Li
 Kapp/src/main/java/com/example/arquitectura_clean_mvvm/screen/ScreenState.kt,f/f/ffc5fc813165b9ce52a5f88db1b7cda391ac78d5
 y
 Iapp/src/main/java/com/example/arquitectura_clean_mvvm/di/MyApplication.kt,0/0/00f1535f557fe9c4fa2e5f73977c46c835d7e845
+|
+Lapp/src/main/java/com/example/arquitectura_clean_mvvm/di/dagger/AppModule.kt,3/6/365a49c765b502f9923e86a78fa330d96ae38c00
+
+Oapp/src/main/java/com/example/arquitectura_clean_mvvm/di/dagger/AppComponent.kt,c/1/c1756eceaa8e539dc4e378b4f6201bf295b4ee49
