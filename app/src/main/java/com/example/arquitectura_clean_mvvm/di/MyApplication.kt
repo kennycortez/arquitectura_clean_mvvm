@@ -11,15 +11,11 @@ class MyApplication: Application() {
         super.onCreate()
         // Start Koin
         startKoin(){
-            androidLogger()
-            androidContext(this@MyApplication)
+            //androidLogger()
+            //androidContext(this@MyApplication)
             modules(appModule)
         }
 
-        /*DaggerAppComponent.builder()
-            .application(this)
-            .build()
-            .inject(this)*/
     }
 
 }

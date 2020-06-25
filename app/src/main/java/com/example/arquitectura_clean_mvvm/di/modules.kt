@@ -17,6 +17,6 @@ val appModule = module {
     single{ GetPokemonUseCase() }
 
     //Cualquier cosa que necisites el contexto , asi lo puedes invocar...
-    single<PokemonRepository> { PokemonRepositoryImpl(androidContext())}
+    single<PokemonRepository> { PokemonRepositoryImpl()}
 
 }

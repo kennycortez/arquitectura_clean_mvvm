@@ -9,8 +9,7 @@ import javax.inject.Inject
 
 class PokemonMapper @Inject constructor():Mapper<PokemonModel,PokemonEntity>() {
 
-    @Inject
-    lateinit var nextEvolutionMapper: NextEvolutionMapper
+    var nextEvolutionMapper= NextEvolutionMapper()
     var prevEvolutionMapper = PrevEvolutionMapper()
 
     override fun mapToEntity(type: List<PokemonEntity>): List<PokemonModel> {

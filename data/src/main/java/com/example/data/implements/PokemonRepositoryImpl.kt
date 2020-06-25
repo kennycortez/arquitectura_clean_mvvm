@@ -18,7 +18,7 @@ import com.example.networking.util.NetworkingHttpVerb
 import com.google.gson.Gson
 import java.lang.Exception
 
-class PokemonRepositoryImpl(context: Context):PokemonRepository {
+class PokemonRepositoryImpl:PokemonRepository {
 
     private val gson = Gson()
 

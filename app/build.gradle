@@ -73,8 +73,8 @@ dependencies {
 
 
     api project(path: ':storage')
-    api project(path: ':domain')
-    api project(path: ':data')
+    implementation project(path: ':domain')
+    implementation project(path: ':data')
 
 
     implementation "org.koin:koin-core:$koin_version"
