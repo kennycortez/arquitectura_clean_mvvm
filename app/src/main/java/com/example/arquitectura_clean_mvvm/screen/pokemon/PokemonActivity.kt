@@ -3,27 +3,29 @@ package com.example.arquitectura_clean_mvvm.screen.pokemon
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import androidx.activity.viewModels
 import androidx.recyclerview.widget.GridLayoutManager
-import com.example.arquitectura_clean_mvvm.R
+import com.example.arquitectura_clean_mvvm.databinding.ActivityPokemonBinding
 import com.example.arquitectura_clean_mvvm.screen.ScreenState
 import com.example.arquitectura_clean_mvvm.screen.pokemon.adapter.ListPokemonAdapter
 import com.example.domain.model.PokemonModel
 import com.example.helper.base.BaseActivity
-import com.example.storage.Storage
-import dagger.android.DaggerActivity
-import kotlinx.android.synthetic.main.activity_main.*
-import org.koin.androidx.viewmodel.ext.android.viewModel
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
+class PokemonActivity : BaseActivity(), ListPokemonAdapter.OnClickSelectedPokemon {
 
-class PokemonActivity : BaseActivity() {
+    private lateinit var binding: ActivityPokemonBinding
 
-
-    private val pokemonViewModel:PokemonViewModel by viewModel()
+    //private val pokemonViewModel:PokemonViewModel by viewModel()
+    private val pokemonViewModel:PokemonViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
 
+        binding = ActivityPokemonBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        //setContentView(R.layout.activity_pokemon)
         pokemonViewModel.state.observe(::getLifecycle, ::updateUI)
         pokemonViewModel.getPokemon()
 
@@ -34,7 +36,7 @@ class PokemonActivity : BaseActivity() {
         when (screenState) {
 
             ScreenState.Loading -> {
-                pbLoad.visibility = View.VISIBLE
+                binding.pbLoad.visibility = View.VISIBLE
             }
             is ScreenState.Render -> processRenderState(screenState.renderState)
         }
@@ -42,7 +44,7 @@ class PokemonActivity : BaseActivity() {
 
     private fun processRenderState(renderState: PokemonState) {
 
-        pbLoad.visibility = View.GONE
+        binding.pbLoad.visibility = View.GONE
 
         when (renderState) {
 
@@ -55,8 +57,14 @@ class PokemonActivity : BaseActivity() {
 
     private fun setRecyclerViewPokemon(listPokemon: List<PokemonModel>) {
         val adapterPokemon = ListPokemonAdapter(listPokemon)
-        rcvpoke.setHasFixedSize(true)
-        rcvpoke.adapter = adapterPokemon
-        rcvpoke.layoutManager = GridLayoutManager(this, 4)
+        binding.rcvpoke.setHasFixedSize(true)
+        binding.rcvpoke.adapter = adapterPokemon
+        binding.rcvpoke.layoutManager = GridLayoutManager(this, 4)
+        adapterPokemon.setListenerItemSelected(this)
     }
+
+    override fun selectPokemon(pokemon: PokemonModel) {
+        print(pokemon)
+    }
+
 }

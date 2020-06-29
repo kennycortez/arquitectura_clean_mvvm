@@ -12,11 +12,11 @@ import org.koin.dsl.module
 
 val appModule = module {
 
-    viewModel { PokemonViewModel () }
+   /* viewModel { PokemonViewModel () }
 
     single{ GetPokemonUseCase() }
 
     //Cualquier cosa que necisites el contexto , asi lo puedes invocar...
     single<PokemonRepository> { PokemonRepositoryImpl()}
-
+*/ 
 }

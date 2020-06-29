@@ -1,5 +1,6 @@
 package com.example.arquitectura_clean_mvvm.screen.pokemon
 
+import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -10,11 +11,10 @@ import com.example.domain.usecases.GetPokemonUseCase
 import com.example.helper.error.Failure
 import kotlinx.coroutines.launch
 import org.koin.core.KoinComponent
-import org.koin.core.inject
 
-class PokemonViewModel:ViewModel(),KoinComponent {
+class PokemonViewModel @ViewModelInject constructor(private val getPokemonUseCase:GetPokemonUseCase):ViewModel(),KoinComponent {
 
-    private val getPokemonUseCase:GetPokemonUseCase by inject()
+    //private val getPokemonUseCase:GetPokemonUseCase by inject()
 
     private var _state: MutableLiveData<ScreenState<PokemonState>> = MutableLiveData()
 

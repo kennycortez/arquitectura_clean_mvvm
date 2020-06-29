@@ -17,8 +17,9 @@ import com.example.networking.service.ResultService
 import com.example.networking.util.NetworkingHttpVerb
 import com.google.gson.Gson
 import java.lang.Exception
+import javax.inject.Inject
 
-class PokemonRepositoryImpl:PokemonRepository {
+class PokemonRepositoryImpl @Inject constructor():PokemonRepository {
 
     private val gson = Gson()
 

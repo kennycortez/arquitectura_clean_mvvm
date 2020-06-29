@@ -1,27 +1,25 @@
 package com.example.arquitectura_clean_mvvm.screen.pokemon.adapter
 
-import android.content.Context
-
 import android.media.MediaPlayer
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
-import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.arquitectura_clean_mvvm.R
+import com.example.arquitectura_clean_mvvm.databinding.ItemPokeBinding
 import com.example.domain.model.PokemonModel
 import com.squareup.picasso.Picasso
 
 
+class ListPokemonAdapter(private val listPokemon: List<PokemonModel>) :
+    RecyclerView.Adapter<ListPokemonAdapter.ListPokemonViewHolder>() {
 
-class ListPokemonAdapter(private val listPokemon: List<PokemonModel>) : RecyclerView.Adapter<ListPokemonAdapter.ListPokemonViewHolder>() {
-
-    private var context : Context ?=null
+    var mOnClickSelectedPokemon: OnClickSelectedPokemon? = null
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListPokemonViewHolder {
-        context = parent.context
-        return ListPokemonViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.item_poke,parent,false))
+        return ListPokemonViewHolder(
+            LayoutInflater.from(parent.context).inflate(R.layout.item_poke, parent, false)
+        )
     }
 
     override fun getItemCount(): Int {
@@ -30,11 +28,12 @@ class ListPokemonAdapter(private val listPokemon: List<PokemonModel>) : Recycler
 
     override fun onBindViewHolder(holder: ListPokemonViewHolder, position: Int) {
 
-        holder.txtNamePokemon.text = listPokemon[position].name
-        Picasso.get().load(listPokemon[position].img).into(holder.imagePokemon)
-        //Glide.with(context!!).load(listPokemon.get(position).img).into(holder.imagePokemon)
+        holder.bind(listPokemon[position], mOnClickSelectedPokemon!!)
 
-        holder.imagePokemon.setOnClickListener {
+
+        /*holder.binding.txtname.text = listPokemon[position].name
+        Picasso.get().load(listPokemon[position].img).into(holder.binding.imvpokerastro)
+        holder.binding.imvpokerastro.setOnClickListener {
 
             try {
                 val nameAudio: String? = listPokemon[position].num
@@ -49,12 +48,58 @@ class ListPokemonAdapter(private val listPokemon: List<PokemonModel>) : Recycler
                 e.message
                 e.printStackTrace()
             }
+        }*/
+
+    }
+
+    class ListPokemonViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
+
+        private var binding = ItemPokeBinding.bind(itemView)/*.apply {
+                this.txtname
+                this.imvpokerastro
+        }*/
+
+
+
+        fun bind(
+            listPokemon: PokemonModel,
+            nClickSelectedPokemon: OnClickSelectedPokemon
+        ) = with(binding) {
+
+            txtname.text = listPokemon.name
+            Picasso.get().load(listPokemon.img).into(imvpokerastro)
+
+            imvpokerastro.setOnClickListener {
+                audioPoke(listPokemon)
+                nClickSelectedPokemon.selectPokemon(listPokemon)
+            }
+        }
+
+        private fun audioPoke(listPokemon: PokemonModel) {
+            try {
+                val nameAudio: String? = listPokemon.num
+                val resID = itemView.context.resources.getIdentifier(
+                    "p$nameAudio",
+                    "raw",
+                    itemView.context.packageName
+                )
+                val mediaPlayer = MediaPlayer.create(itemView.context, resID)
+                mediaPlayer.start()
+                mediaPlayer.setOnCompletionListener { mp ->
+                    mp.release()
+                }
+            } catch (e: Exception) {
+                e.printStackTrace()
+            }
         }
 
     }
 
-    class ListPokemonViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-            var txtNamePokemon:TextView = itemView.findViewById(R.id.txtname)
-            var imagePokemon:ImageView = itemView.findViewById(R.id.imvpokerastro)
+    fun setListenerItemSelected(setOnClickSelectedPokemon: OnClickSelectedPokemon) {
+        mOnClickSelectedPokemon = setOnClickSelectedPokemon
+    }
+
+    interface OnClickSelectedPokemon {
+        fun selectPokemon(pokemon: PokemonModel)
     }
 }
