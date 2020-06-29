@@ -8,10 +8,11 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.arquitectura_clean_mvvm.R
 import com.example.arquitectura_clean_mvvm.databinding.ItemPokeBinding
 import com.example.domain.model.PokemonModel
+import com.example.domain.model.pokedex.PokedexItemModel
 import com.squareup.picasso.Picasso
 
 
-class ListPokemonAdapter(private val listPokemon: List<PokemonModel>) :
+class ListPokemonAdapter(private val listPokemon: List<PokedexItemModel>) :
     RecyclerView.Adapter<ListPokemonAdapter.ListPokemonViewHolder>() {
 
     var mOnClickSelectedPokemon: OnClickSelectedPokemon? = null
@@ -62,12 +63,12 @@ class ListPokemonAdapter(private val listPokemon: List<PokemonModel>) :
 
 
         fun bind(
-            listPokemon: PokemonModel,
+            listPokemon: PokedexItemModel,
             nClickSelectedPokemon: OnClickSelectedPokemon
         ) = with(binding) {
 
             txtname.text = listPokemon.name
-            Picasso.get().load(listPokemon.img).into(imvpokerastro)
+            Picasso.get().load(listPokemon.ThumbnailImage).into(imvpokerastro)
 
             imvpokerastro.setOnClickListener {
                 audioPoke(listPokemon)
@@ -75,9 +76,9 @@ class ListPokemonAdapter(private val listPokemon: List<PokemonModel>) :
             }
         }
 
-        private fun audioPoke(listPokemon: PokemonModel) {
+        private fun audioPoke(listPokemon: PokedexItemModel) {
             try {
-                val nameAudio: String? = listPokemon.num
+                val nameAudio: String? = listPokemon.number
                 val resID = itemView.context.resources.getIdentifier(
                     "p$nameAudio",
                     "raw",
@@ -100,6 +101,6 @@ class ListPokemonAdapter(private val listPokemon: List<PokemonModel>) :
     }
 
     interface OnClickSelectedPokemon {
-        fun selectPokemon(pokemon: PokemonModel)
+        fun selectPokemon(pokemon: PokedexItemModel)
     }
 }

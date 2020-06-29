@@ -7,12 +7,14 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.arquitectura_clean_mvvm.screen.ScreenState
 import com.example.domain.model.PokemonModel
+import com.example.domain.model.pokedex.PokedexItemModel
+import com.example.domain.usecases.GetPokedexUseCase
 import com.example.domain.usecases.GetPokemonUseCase
 import com.example.helper.error.Failure
 import kotlinx.coroutines.launch
 import org.koin.core.KoinComponent
 
-class PokemonViewModel @ViewModelInject constructor(private val getPokemonUseCase:GetPokemonUseCase):ViewModel(),KoinComponent {
+class PokemonViewModel @ViewModelInject constructor(private val getPokemonUseCase:GetPokedexUseCase):ViewModel(),KoinComponent {
 
     //private val getPokemonUseCase:GetPokemonUseCase by inject()
 
@@ -27,7 +29,7 @@ class PokemonViewModel @ViewModelInject constructor(private val getPokemonUseCas
         viewModelScope.launch { getPokemonUseCase.run(Unit).either(::error, ::responsePokemon) }
     }
 
-    private fun responsePokemon(account: List<PokemonModel>) {
+    private fun responsePokemon(account: List<PokedexItemModel>) {
 
         when{
             account.isEmpty() ->  _state.value = ScreenState.Render(PokemonState.ShowListItems(account))

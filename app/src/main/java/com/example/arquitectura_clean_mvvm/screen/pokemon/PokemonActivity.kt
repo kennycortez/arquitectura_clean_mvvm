@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.GridLayoutManager
 import com.example.arquitectura_clean_mvvm.databinding.ActivityPokemonBinding
 import com.example.arquitectura_clean_mvvm.screen.ScreenState
 import com.example.arquitectura_clean_mvvm.screen.pokemon.adapter.ListPokemonAdapter
-import com.example.domain.model.PokemonModel
+import com.example.domain.model.pokedex.PokedexItemModel
 import com.example.helper.base.BaseActivity
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -55,7 +55,7 @@ class PokemonActivity : BaseActivity(), ListPokemonAdapter.OnClickSelectedPokemo
         }
     }
 
-    private fun setRecyclerViewPokemon(listPokemon: List<PokemonModel>) {
+    private fun setRecyclerViewPokemon(listPokemon: List<PokedexItemModel>) {
         val adapterPokemon = ListPokemonAdapter(listPokemon)
         binding.rcvpoke.setHasFixedSize(true)
         binding.rcvpoke.adapter = adapterPokemon
@@ -63,7 +63,7 @@ class PokemonActivity : BaseActivity(), ListPokemonAdapter.OnClickSelectedPokemo
         adapterPokemon.setListenerItemSelected(this)
     }
 
-    override fun selectPokemon(pokemon: PokemonModel) {
+    override fun selectPokemon(pokemon: PokedexItemModel) {
         print(pokemon)
     }
 

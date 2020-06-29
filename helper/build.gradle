@@ -30,7 +30,9 @@ android {
         local {
             dimension "environment"
 
-            buildConfigField "String", "BASE_URL", '"https://demo6653961.mockable.io/"'
+            //buildConfigField "String", "BASE_URL", '"https://demo6653961.mockable.io/"'
+            buildConfigField "String", "BASE_URL", '"https://www.pokemon.com/el/api/"'
+
         }
       }
 
