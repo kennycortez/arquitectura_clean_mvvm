@@ -8,12 +8,21 @@ import androidx.recyclerview.widget.GridLayoutManager
 import com.example.arquitectura_clean_mvvm.databinding.ActivityPokemonBinding
 import com.example.arquitectura_clean_mvvm.screen.ScreenState
 import com.example.arquitectura_clean_mvvm.screen.pokemon.adapter.ListPokemonAdapter
+import com.example.data.local.AppDataBase
+import com.example.data.local.PokedexDao
 import com.example.domain.model.pokedex.PokedexItemModel
 import com.example.helper.base.BaseActivity
 import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.launch
+import javax.inject.Inject
 
 @AndroidEntryPoint
 class PokemonActivity : BaseActivity(), ListPokemonAdapter.OnClickSelectedPokemon {
+
+
+    @Inject
+    lateinit var dataBase: AppDataBase
 
     private lateinit var binding: ActivityPokemonBinding
 

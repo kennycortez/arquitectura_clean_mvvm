@@ -6,6 +6,8 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.arquitectura_clean_mvvm.screen.ScreenState
+import com.example.data.local.AppDataBase
+import com.example.data.local.PokedexDao
 import com.example.domain.model.PokemonModel
 import com.example.domain.model.pokedex.PokedexItemModel
 import com.example.domain.usecases.GetPokedexUseCase
@@ -13,6 +15,7 @@ import com.example.domain.usecases.GetPokemonUseCase
 import com.example.helper.error.Failure
 import kotlinx.coroutines.launch
 import org.koin.core.KoinComponent
+import javax.inject.Inject
 
 class PokemonViewModel @ViewModelInject constructor(private val getPokemonUseCase:GetPokedexUseCase):ViewModel(),KoinComponent {
 
@@ -24,7 +27,7 @@ class PokemonViewModel @ViewModelInject constructor(private val getPokemonUseCas
         get() = _state
 
 
-    fun getPokemon( ) {
+    fun getPokemon() {
         _state.value = ScreenState.Loading
         viewModelScope.launch { getPokemonUseCase.run(Unit).either(::error, ::responsePokemon) }
     }

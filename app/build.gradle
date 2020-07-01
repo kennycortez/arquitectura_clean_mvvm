@@ -129,4 +129,7 @@ dependencies {
     kapt "androidx.hilt:hilt-compiler:1.0.0-alpha01"
     implementation "androidx.activity:activity-ktx:1.1.0"
 
+    def room_version = "2.2.5"
+    implementation "androidx.room:room-runtime:$room_version"
+    kapt "androidx.room:room-compiler:$room_version" // For Kotlin use kapt instead of annotationProcessor
 }

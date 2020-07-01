@@ -1,10 +1,14 @@
 package com.example.arquitectura_clean_mvvm.di.dagger.hilt
 
+import android.app.Application
+import android.content.Context
+import androidx.room.Room
+import com.example.data.datasource.PokedexDataStoreFactory
 import com.example.data.implements.PokedexRepositoryImpl
 import com.example.data.implements.PokemonRepositoryImpl
+import com.example.data.local.AppDataBase
 import com.example.domain.repositories.PokedexRepository
 import com.example.domain.repositories.PokemonRepository
-import com.example.storage.Storage
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -15,6 +19,20 @@ import javax.inject.Singleton
 @InstallIn(ApplicationComponent::class)
 class AppModule {
 
+    @Provides
+    fun dataBasePokedex(context: Context):AppDataBase{
+        return Room.databaseBuilder(
+            context,
+            AppDataBase::class.java, "pokedex.db"
+        ).build()
+    }
+
+
+    @Provides
+    fun provideContext(application: Application): Context{
+        return application
+    }
+
     @Singleton
     @Provides
     fun pokemonRepository():PokemonRepository{
@@ -23,7 +41,9 @@ class AppModule {
 
     @Singleton
     @Provides
-    fun pokedexRepository():PokedexRepository{
-        return PokedexRepositoryImpl()
+    fun pokedexRepository(pokedexDataStoreFactory: PokedexDataStoreFactory,appDataBase: AppDataBase):PokedexRepository{
+        return PokedexRepositoryImpl(pokedexDataStoreFactory,appDataBase)
     }
+
+
 }
