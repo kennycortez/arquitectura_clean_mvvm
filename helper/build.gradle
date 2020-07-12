@@ -53,5 +53,4 @@ dependencies {
 
     api 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0-alpha04'
 
-    implementation project(path:':networking')
 }

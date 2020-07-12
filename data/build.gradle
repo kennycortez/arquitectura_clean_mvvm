@@ -61,22 +61,9 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation 'com.google.code.gson:gson:2.8.5'
     api project(path:':domain')
-    api project(path:':helper')
 
     implementation "com.google.dagger:dagger:2.23.2"
     implementation "com.google.dagger:dagger-android-support:2.23.2"
 
-
-    def room_version = "2.2.5"
-
-    implementation "androidx.room:room-runtime:$room_version"
-    kapt "androidx.room:room-compiler:$room_version" // For Kotlin use kapt instead of annotationProcessor
-
-    // optional - Kotlin Extensions and Coroutines support for Room
-
-    implementation "androidx.room:room-ktx:$room_version"
-
-
-    implementation project(path:':networking')
 
 }

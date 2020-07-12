@@ -15,4 +15,11 @@
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
     <string name="title_activity_main2">Pokedex</string>
+
+
+    <string name="title_logo">Mira a tu alrededor con mapas hechos a tu escala</string>
+    <string name="facebook_app_id">[APP_ID]</string>
+    <string name="fb_login_protocol_scheme">fb[APP_ID]</string>
+    <string name="title_activity_maps">Map</string>
+
 </resources>
