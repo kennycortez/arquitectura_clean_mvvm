@@ -8,21 +8,24 @@ class PokedexMapper : Mapper<PokedexItemModel,PokedexItemEntity>(){
 
 
     override fun mapToEntity(type: PokedexItemEntity): PokedexItemModel {
+        // We use a more reliable image source from PokeAPI GitHub to avoid blocking
+        val officialArtwork = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${type.id}.png"
+        
         return PokedexItemModel(
-            ThumbnailAltText = type.name,
-            ThumbnailImage = type.thumbnailImage?.replace("http://", "https://"), // Use HTTPS
-            abilities = null, // Not in this JSON
-            collectibles_slug = type.name?.lowercase(),
-            detailPageURL = null,
-            featured = null,
-            height = type.heightStr?.replace(" m", "")?.toDoubleOrNull(),
+            ThumbnailAltText = type.thumbnailAltText,
+            ThumbnailImage = officialArtwork,
+            abilities = type.abilities,
+            collectibles_slug = type.collectiblesSlug,
+            detailPageURL = type.detailPageURL,
+            featured = type.featured,
+            height = type.height,
             id = type.id,
             name = type.name,
             number = type.number,
-            slug = type.name?.lowercase(),
+            slug = type.slug,
             type = type.type,
             weakness = type.weakness,
-            weight = type.weightStr?.replace(" kg", "")?.toDoubleOrNull()
+            weight = type.weight
         )
     }
 

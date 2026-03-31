@@ -22,7 +22,7 @@ class PokedexRepositoryImpl @Inject constructor():PokedexRepository {
     private val gson = Gson()
 
     override suspend fun getPokedex(): ResultType<Failure, List<PokedexItemModel>> {
-        val query = "pokedex.json"
+        val query = "pokemon.min.json"
         val networkConfiguration = NetworkingConfiguration.CPNetworkingConfigurationBuilder()
             .endpoint(query)
             .header(Network.getGenericHeader())
@@ -34,7 +34,9 @@ class PokedexRepositoryImpl @Inject constructor():PokedexRepository {
 
             return if(result.isSuccessful){
                 val pokemonResponse: PokedexEntity = gson.fromJson(gson.toJson(result.body), PokedexEntity::class.java)
-                ResultType.Success(PokedexMapper().mapToEntity(pokemonResponse.pokemon))
+                // Filter duplicates by ID to avoid repeated entries
+                val distinctPokemon = pokemonResponse.distinctBy { it.id }
+                ResultType.Success(PokedexMapper().mapToEntity(distinctPokemon))
 
             }else{
                 val error = gson.fromJson(gson.toJson(result.error), ErrorEntity::class.java)
