@@ -16,6 +16,7 @@
         <activity
             android:name=".screen.pokemon.PokemonActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
             android:label="@string/title_activity_main2"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>

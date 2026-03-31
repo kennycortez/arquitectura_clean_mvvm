@@ -5,8 +5,8 @@ import com.example.domain.repositories.PokemonRepository
 import com.example.helper.base.ResultType
 import com.example.helper.base.UseCase
 import com.example.helper.error.Failure
-import org.koin.core.KoinComponent
-import org.koin.core.inject
+import org.koin.core.component.KoinComponent
+import org.koin.core.component.inject
 import javax.inject.Inject
 
 class GetPokemonUseCase @Inject constructor(private val pokemonRepository:PokemonRepository):UseCase<List<PokemonModel>,Unit>(),KoinComponent {

@@ -1,20 +1,20 @@
 package com.example.arquitectura_clean_mvvm.screen.pokemon
 
-import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.arquitectura_clean_mvvm.screen.ScreenState
-import com.example.domain.model.PokemonModel
 import com.example.domain.model.pokedex.PokedexItemModel
 import com.example.domain.usecases.GetPokedexUseCase
-import com.example.domain.usecases.GetPokemonUseCase
 import com.example.helper.error.Failure
+import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
-import org.koin.core.KoinComponent
+import org.koin.core.component.KoinComponent
+import javax.inject.Inject
 
-class PokemonViewModel @ViewModelInject constructor(private val getPokemonUseCase:GetPokedexUseCase):ViewModel(),KoinComponent {
+@HiltViewModel
+class PokemonViewModel @Inject constructor(private val getPokemonUseCase:GetPokedexUseCase):ViewModel(),KoinComponent {
 
     //private val getPokemonUseCase:GetPokemonUseCase by inject()
 

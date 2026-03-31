@@ -5,7 +5,7 @@ import com.example.networking.interactor.coroutine.CoroutinePayload
 import com.example.networking.model.NetworkingConfiguration
 import com.example.networking.util.NetworkingHttpVerb
 import com.example.networking.util.BodyUtil
-import okhttp3.HttpUrl
+import okhttp3.HttpUrl.Companion.toHttpUrlOrNull
 import retrofit2.Response
 
 /**
@@ -46,5 +46,5 @@ class CoroutineFormUrlEncodedPayload : CoroutinePayload {
 
     override fun showError(): String = "For FormUrlEncoded BodyType, payload HashMap is required"
 
-    override fun url(baseUrl: String?, endpoint: String?) = HttpUrl.parse(baseUrl.plus(endpoint)).toString()
+    override fun url(baseUrl: String?, endpoint: String?) = baseUrl.plus(endpoint).toHttpUrlOrNull().toString()
 }

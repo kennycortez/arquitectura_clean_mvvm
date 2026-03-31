@@ -1,28 +1,37 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: "kotlin-kapt"
-apply plugin: 'kotlin-android-extensions'
 apply plugin: 'dagger.hilt.android.plugin'
 
 buildscript {
     repositories {
-        jcenter()
+        mavenCentral()
     }
 }
 
 
 android {
 
+    namespace 'com.example.arquitectura_clean_mvvm'
+
     viewBinding {
         enabled = true
     }
 
-    compileSdkVersion 28
+    dataBinding {
+        enabled = true
+    }
+
+    buildFeatures {
+        buildConfig = true
+    }
+
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.example.arquitectura_clean_mvvm"
-        minSdkVersion 21
-        targetSdkVersion 28
+        minSdk 24
+        targetSdk 34
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -49,38 +58,33 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
 
     kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_1_8.toString()
+        jvmTarget = JavaVersion.VERSION_17.toString()
     }
 
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 
-
-    implementation 'androidx.core:core-ktx:1.2.0'
-
-    implementation 'androidx.appcompat:appcompat:1.1.0'
-    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
-    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-    implementation 'androidx.navigation:navigation-fragment:2.0.0'
-    implementation 'androidx.navigation:navigation-ui:2.0.0'
-    implementation 'androidx.navigation:navigation-fragment-ktx:2.0.0'
-    implementation 'androidx.navigation:navigation-ui-ktx:2.0.0'
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'androidx.test:runner:1.2.0'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-    implementation 'androidx.lifecycle:lifecycle-extensions:2.1.0'
-    implementation 'androidx.recyclerview:recyclerview:1.1.0'
-    implementation 'com.google.android.material:material:1.0.0'
-    testImplementation "org.mockito:mockito-inline:2.23.0"
-    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'androidx.core:core-ktx:1.12.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.7.6'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.7.6'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test:runner:1.5.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0'
+    implementation 'androidx.recyclerview:recyclerview:1.3.2'
+    implementation 'com.google.android.material:material:1.11.0'
+    testImplementation 'org.mockito:mockito-inline:5.2.0'
+    implementation 'com.google.code.gson:gson:2.10.1'
 
 
     api project(path: ':storage')
@@ -88,45 +92,25 @@ dependencies {
     implementation project(path: ':data')
 
 
-    implementation "org.koin:koin-core:$koin_version"
-    implementation "org.koin:koin-android:$koin_version"
-    implementation "org.koin:koin-android-viewmodel:$koin_version"
-    implementation "org.koin:koin-android-architecture:$koin_architecture_version"
-
-    // Koin AndroidX Scope features
-    implementation "org.koin:koin-androidx-scope:$koin_version"
-// Koin AndroidX ViewModel features
-    implementation "org.koin:koin-androidx-viewmodel:$koin_version"
-// Koin AndroidX Fragment features
-    implementation "org.koin:koin-androidx-fragment:$koin_version"
-// Koin AndroidX Experimental features
-    implementation "org.koin:koin-androidx-ext:$koin_version"
-
-    implementation "org.koin:koin-core:$koin_version"
-    implementation "org.koin:koin-android:$koin_version"
-    implementation "org.koin:koin-android-viewmodel:$koin_version"
-    implementation "org.koin:koin-android-architecture:$koin_architecture_version"
+    // Koin
+    implementation "io.insert-koin:koin-core:$koin_version"
+    implementation "io.insert-koin:koin-android:$koin_version"
+    implementation "io.insert-koin:koin-androidx-navigation:$koin_version"
+    // Note: Scope, ViewModel and Fragment features are already included in koin-android since 3.1.2
 
 
-    //PICASSO
-    implementation 'com.squareup.picasso:picasso:2.71828'
+    // PICASSO
+    implementation 'com.squareup.picasso:picasso:2.8'
 
-    //GLIDE
-    implementation 'com.github.bumptech.glide:glide:4.9.0'
-    annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
+    // GLIDE
+    implementation 'com.github.bumptech.glide:glide:4.16.0'
+    kapt 'com.github.bumptech.glide:compiler:4.16.0'
 
     implementation "com.dynatrace.agent:agent-android:$dynatrace_version"
 
-    implementation "com.google.dagger:dagger:2.23.2"
-    kapt "com.google.dagger:dagger-compiler:2.23.2"
-    implementation "com.google.dagger:dagger-android-support:2.23.2"
 
-
-    implementation "com.google.dagger:hilt-android:2.28-alpha"
-    kapt "com.google.dagger:hilt-android-compiler:2.28-alpha"
-
-    implementation "androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha01"
-    kapt "androidx.hilt:hilt-compiler:1.0.0-alpha01"
-    implementation "androidx.activity:activity-ktx:1.1.0"
-
+    // Dagger Hilt
+    implementation "com.google.dagger:hilt-android:2.48"
+    kapt "com.google.dagger:hilt-android-compiler:2.48"
+    implementation "androidx.activity:activity-ktx:1.8.2"
 }

@@ -4,7 +4,7 @@ import com.example.networking.NetworkingManager
 import com.example.networking.interactor.coroutine.CoroutinePayload
 import com.example.networking.model.NetworkingConfiguration
 import com.example.networking.util.NetworkingHttpVerb
-import okhttp3.HttpUrl
+import okhttp3.HttpUrl.Companion.toHttpUrlOrNull
 import retrofit2.Response
 
 /**
@@ -41,5 +41,5 @@ class CoroutineJsonPayload : CoroutinePayload {
 
     override fun showError(): String = "For Json BodyType, payload Json is required"
 
-    override fun url(baseUrl: String?, endpoint: String?) = HttpUrl.parse(baseUrl.plus(endpoint)).toString()
+    override fun url(baseUrl: String?, endpoint: String?) = baseUrl.plus(endpoint).toHttpUrlOrNull().toString()
 }

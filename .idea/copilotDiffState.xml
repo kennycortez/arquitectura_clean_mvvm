@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="/build (snapshot).gradle">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="/build (snapshot).gradle" />
+              <option name="originalContent" value="// Top-level build file where you can add configuration options common to all sub-projects/modules.&#10;&#10;buildscript {&#10;    ext.koin_version = '2.1.1'&#10;    ext.koin_architecture_version = &quot;0.8.2&quot;  // This might not be needed for Koin 3&#10;    ext.kotlin_version = '1.9.22'&#10;    ext.dynatrace_version = '8.185.1.1004'  // Update if needed&#10;    repositories {&#10;        google()&#10;        mavenCentral()&#10;    }&#10;    dependencies {&#10;        classpath 'com.android.tools.build:gradle:8.5.0'&#10;        classpath &quot;org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version&quot;&#10;        classpath &quot;com.dynatrace.tools.android:gradle-plugin:$dynatrace_version&quot;&#10;        classpath 'com.google.dagger:hilt-android-gradle-plugin:2.48'&#10;        // NOTE: Do not place your application dependencies here; they belong&#10;        // in the individual module build.gradle files&#10;    }&#10;}&#10;&#10;allprojects {&#10;    repositories {&#10;        google()&#10;        mavenCentral()&#10;        maven { url 'https://dl.bintray.com/ekito/koin' }&#10;    }&#10;}&#10;&#10;task clean(type: Delete) {&#10;    delete rootProject.buildDir&#10;}&#10;" />
+              <option name="updatedContent" value="// Top-level build file where you can add configuration options common to all sub-projects/modules.&#10;&#10;buildscript {&#10;    ext.koin_version = '2.1.1'&#10;    ext.koin_architecture_version = &quot;0.8.2&quot;  // This might not be needed for Koin 3&#10;    ext.kotlin_version = '1.9.22'&#10;    ext.dynatrace_version = '8.185.1.1004'  // Update if needed&#10;    repositories {&#10;        google()&#10;        mavenCentral()&#10;    }&#10;    dependencies {&#10;        classpath 'com.android.tools.build:gradle:8.5.0'&#10;        classpath &quot;org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version&quot;&#10;        classpath &quot;com.dynatrace.tools.android:gradle-plugin:$dynatrace_version&quot;&#10;        classpath 'com.google.dagger:hilt-android-gradle-plugin:2.48'&#10;        // NOTE: Do not place your application dependencies here; they belong&#10;        // in the individual module build.gradle files&#10;    }&#10;}&#10;&#10;allprojects {&#10;    repositories {&#10;        google()&#10;        mavenCentral()&#10;        maven { url 'https://dl.bintray.com/ekito/koin' }&#10;        jcenter()&#10;    }&#10;}&#10;&#10;task clean(type: Delete) {&#10;    delete rootProject.buildDir&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

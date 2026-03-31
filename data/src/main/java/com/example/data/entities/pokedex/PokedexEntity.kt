@@ -1,6 +1,8 @@
 package com.example.data.entities.pokedex
 
-
 import com.google.gson.annotations.SerializedName
 
-class PokedexEntity : ArrayList<PokedexItemEntity>()
+data class PokedexEntity(
+    @SerializedName("pokemon")
+    val pokemon: List<PokedexItemEntity>
+)

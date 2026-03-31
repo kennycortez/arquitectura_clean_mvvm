@@ -71,9 +71,26 @@ class ListPokemonAdapter(private val listPokemon: List<PokedexItemModel>) :
             Picasso.get().load(listPokemon.ThumbnailImage).into(imvpokerastro)
 
             imvpokerastro.setOnClickListener {
+                animateClick(it)
                 audioPoke(listPokemon)
                 nClickSelectedPokemon.selectPokemon(listPokemon)
             }
+        }
+
+        private fun animateClick(view: View) {
+            view.animate()
+                .scaleX(1.2f)
+                .scaleY(1.2f)
+                .setDuration(200)
+                .setInterpolator(android.view.animation.OvershootInterpolator())
+                .withEndAction {
+                    view.animate()
+                        .scaleX(1.0f)
+                        .scaleY(1.0f)
+                        .setDuration(200)
+                        .start()
+                }
+                .start()
         }
 
         private fun audioPoke(listPokemon: PokedexItemModel) {

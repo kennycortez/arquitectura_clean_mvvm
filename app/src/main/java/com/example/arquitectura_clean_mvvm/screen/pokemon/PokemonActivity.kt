@@ -26,7 +26,7 @@ class PokemonActivity : BaseActivity(), ListPokemonAdapter.OnClickSelectedPokemo
         binding = ActivityPokemonBinding.inflate(layoutInflater)
         setContentView(binding.root)
         //setContentView(R.layout.activity_pokemon)
-        pokemonViewModel.state.observe(::getLifecycle, ::updateUI)
+        pokemonViewModel.state.observe(this, ::updateUI)
         pokemonViewModel.getPokemon()
 
     }
@@ -59,7 +59,7 @@ class PokemonActivity : BaseActivity(), ListPokemonAdapter.OnClickSelectedPokemo
         val adapterPokemon = ListPokemonAdapter(listPokemon)
         binding.rcvpoke.setHasFixedSize(true)
         binding.rcvpoke.adapter = adapterPokemon
-        binding.rcvpoke.layoutManager = GridLayoutManager(this, 4)
+        binding.rcvpoke.layoutManager = GridLayoutManager(this, 3)
         adapterPokemon.setListenerItemSelected(this)
     }
 

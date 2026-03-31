@@ -5,7 +5,7 @@ import com.example.networking.interactor.rx.RxPayload
 import com.example.networking.model.NetworkingConfiguration
 import com.example.networking.util.NetworkingHttpVerb
 import io.reactivex.Single
-import okhttp3.HttpUrl
+import okhttp3.HttpUrl.Companion.toHttpUrlOrNull
 import retrofit2.Response
 
 /**
@@ -56,5 +56,5 @@ class RxJsonPayload : RxPayload {
 
     override fun showError(): String = "For Json BodyType, payload Json is required"
 
-    override fun url(baseUrl: String?, endpoint: String?) = HttpUrl.parse(baseUrl.plus(endpoint)).toString()
+    override fun url(baseUrl: String?, endpoint: String?) = baseUrl.plus(endpoint).toHttpUrlOrNull().toString()
 }

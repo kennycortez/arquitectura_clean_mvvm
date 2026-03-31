@@ -69,8 +69,8 @@ class RetrofitException internal constructor(
             if (throwable is HttpException) {
                 val response = throwable.response()
                 return httpError(
-                    response.raw().request().url().toString(),
-                    response,
+                    response?.raw()?.request?.url?.toString() ?: "",
+                    response!!,
                     null
                 )
             }
