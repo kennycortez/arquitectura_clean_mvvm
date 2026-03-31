@@ -1,25 +1,35 @@
 package com.example.arquitectura_clean_mvvm.screen.pokemon.adapter
 
 import android.media.MediaPlayer
+import android.speech.tts.TextToSpeech
+import android.speech.tts.UtteranceProgressListener
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.arquitectura_clean_mvvm.R
 import com.example.arquitectura_clean_mvvm.databinding.ItemPokeBinding
-import com.example.domain.model.PokemonModel
 import com.example.domain.model.pokedex.PokedexItemModel
 import com.squareup.picasso.Picasso
-
+import java.util.Locale
 
 class ListPokemonAdapter(private val listPokemon: List<PokedexItemModel>) :
     RecyclerView.Adapter<ListPokemonAdapter.ListPokemonViewHolder>() {
 
     var mOnClickSelectedPokemon: OnClickSelectedPokemon? = null
+    private var textToSpeech: TextToSpeech? = null
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListPokemonViewHolder {
+        if (textToSpeech == null) {
+            textToSpeech = TextToSpeech(parent.context) { status ->
+                if (status == TextToSpeech.SUCCESS) {
+                    textToSpeech?.language = Locale("es", "ES")
+                }
+            }
+        }
         return ListPokemonViewHolder(
-            LayoutInflater.from(parent.context).inflate(R.layout.item_poke, parent, false)
+            LayoutInflater.from(parent.context).inflate(R.layout.item_poke, parent, false),
+            textToSpeech
         )
     }
 
@@ -28,39 +38,12 @@ class ListPokemonAdapter(private val listPokemon: List<PokedexItemModel>) :
     }
 
     override fun onBindViewHolder(holder: ListPokemonViewHolder, position: Int) {
-
         holder.bind(listPokemon[position], mOnClickSelectedPokemon!!)
-
-
-        /*holder.binding.txtname.text = listPokemon[position].name
-        Picasso.get().load(listPokemon[position].img).into(holder.binding.imvpokerastro)
-        holder.binding.imvpokerastro.setOnClickListener {
-
-            try {
-                val nameAudio: String? = listPokemon[position].num
-                val resID = context!!.resources.getIdentifier("p$nameAudio", "raw", context!!.packageName)
-                val mediaPlayer = MediaPlayer.create(context, resID)
-                mediaPlayer.start()
-                mediaPlayer.setOnCompletionListener { mp ->
-                    mp.release()
-                }
-
-            } catch (e: Exception) {
-                e.message
-                e.printStackTrace()
-            }
-        }*/
-
     }
 
-    class ListPokemonViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
+    class ListPokemonViewHolder(itemView: View, private val tts: TextToSpeech?) : RecyclerView.ViewHolder(itemView){
 
-        private var binding = ItemPokeBinding.bind(itemView)/*.apply {
-                this.txtname
-                this.imvpokerastro
-        }*/
-
-
+        private var binding = ItemPokeBinding.bind(itemView)
 
         fun bind(
             listPokemon: PokedexItemModel,
@@ -79,12 +62,10 @@ class ListPokemonAdapter(private val listPokemon: List<PokedexItemModel>) :
                 val typeView = LayoutInflater.from(itemView.context).inflate(R.layout.layout_type_badge, typesContainer, false) as android.widget.TextView
                 typeView.text = typeName
                 
-                // Get color based on type
                 val colorId = itemView.context.resources.getIdentifier("type_${typeName.lowercase()}", "color", itemView.context.packageName)
                 if (colorId != 0) {
                     val color = androidx.core.content.ContextCompat.getColor(itemView.context, colorId)
                     typeView.backgroundTintList = android.content.res.ColorStateList.valueOf(color)
-                    // If the background is very light (like electric), we might want darker text, but white is usually fine for these pastels
                     typeView.setTextColor(android.graphics.Color.WHITE)
                 }
                 
@@ -92,15 +73,39 @@ class ListPokemonAdapter(private val listPokemon: List<PokedexItemModel>) :
             }
 
             imvpokerastro.setOnClickListener {
-                animateClick(itemView) // Animate the whole card
-                audioPoke(listPokemon)
+                animateClick(itemView) 
+                speakPokemonName(listPokemon.name) {
+                    audioPoke(listPokemon)
+                }
                 nClickSelectedPokemon.selectPokemon(listPokemon)
             }
         }
 
+        private fun speakPokemonName(name: String?, onDone: () -> Unit) {
+            if (tts == null || name == null) {
+                onDone()
+                return
+            }
+
+            val utteranceId = "poke_name_${name}"
+            tts.setOnUtteranceProgressListener(object : UtteranceProgressListener() {
+                override fun onStart(utteranceId: String?) {}
+                override fun onDone(uid: String?) {
+                    if (uid == utteranceId) {
+                        itemView.post { onDone() }
+                    }
+                }
+                override fun onError(utteranceId: String?) {
+                    itemView.post { onDone() }
+                }
+            })
+
+            tts.speak(name, TextToSpeech.QUEUE_FLUSH, null, utteranceId)
+        }
+
         private fun animateClick(view: View) {
             view.animate()
-                .scaleX(0.95f) // Scale down slightly on click for "press" effect
+                .scaleX(0.95f)
                 .scaleY(0.95f)
                 .setDuration(100)
                 .withEndAction {
@@ -122,10 +127,12 @@ class ListPokemonAdapter(private val listPokemon: List<PokedexItemModel>) :
                     "raw",
                     itemView.context.packageName
                 )
-                val mediaPlayer = MediaPlayer.create(itemView.context, resID)
-                mediaPlayer.start()
-                mediaPlayer.setOnCompletionListener { mp ->
-                    mp.release()
+                if (resID != 0) {
+                    val mediaPlayer = MediaPlayer.create(itemView.context, resID)
+                    mediaPlayer.start()
+                    mediaPlayer.setOnCompletionListener { mp ->
+                        mp.release()
+                    }
                 }
             } catch (e: Exception) {
                 e.printStackTrace()
