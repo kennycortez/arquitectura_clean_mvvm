@@ -25,7 +25,9 @@ class PokemonActivity : BaseActivity(), ListPokemonAdapter.OnClickSelectedPokemo
 
         binding = ActivityPokemonBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        //setContentView(R.layout.activity_pokemon)
+        
+        setSupportActionBar(binding.toolbar)
+        supportActionBar?.title = "✨ Mis Pokémones ✨"
         pokemonViewModel.state.observe(this, ::updateUI)
         pokemonViewModel.getPokemon()
 
@@ -49,7 +51,6 @@ class PokemonActivity : BaseActivity(), ListPokemonAdapter.OnClickSelectedPokemo
         when (renderState) {
 
             is PokemonState.ShowListItems -> {
-                Toast.makeText(this, "hola", Toast.LENGTH_SHORT).show()
                 setRecyclerViewPokemon(renderState.list)
             }
         }
@@ -59,7 +60,7 @@ class PokemonActivity : BaseActivity(), ListPokemonAdapter.OnClickSelectedPokemo
         val adapterPokemon = ListPokemonAdapter(listPokemon)
         binding.rcvpoke.setHasFixedSize(true)
         binding.rcvpoke.adapter = adapterPokemon
-        binding.rcvpoke.layoutManager = GridLayoutManager(this, 3)
+        binding.rcvpoke.layoutManager = GridLayoutManager(this, 2)
         adapterPokemon.setListenerItemSelected(this)
     }
 

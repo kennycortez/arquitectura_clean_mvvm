@@ -1,11 +1,12 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/pokedex_bg</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
@@ -13,8 +14,11 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="PokedexTitleStyle" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/pokedex_text_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textSize">24sp</item>
+    </style>
 
 </resources>

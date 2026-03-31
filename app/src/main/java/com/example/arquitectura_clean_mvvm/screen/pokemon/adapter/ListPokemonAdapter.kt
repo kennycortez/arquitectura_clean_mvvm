@@ -68,10 +68,31 @@ class ListPokemonAdapter(private val listPokemon: List<PokedexItemModel>) :
         ) = with(binding) {
 
             txtname.text = listPokemon.name
+            txtId.text = "#${listPokemon.number}"
+            txtWeight.text = "${listPokemon.weight ?: 0} kg"
+            txtHeight.text = "${listPokemon.height ?: 0} m"
             Picasso.get().load(listPokemon.ThumbnailImage).into(imvpokerastro)
 
+            // Dynamic types
+            typesContainer.removeAllViews()
+            listPokemon.type?.forEach { typeName ->
+                val typeView = LayoutInflater.from(itemView.context).inflate(R.layout.layout_type_badge, typesContainer, false) as android.widget.TextView
+                typeView.text = typeName
+                
+                // Get color based on type
+                val colorId = itemView.context.resources.getIdentifier("type_${typeName.lowercase()}", "color", itemView.context.packageName)
+                if (colorId != 0) {
+                    val color = androidx.core.content.ContextCompat.getColor(itemView.context, colorId)
+                    typeView.backgroundTintList = android.content.res.ColorStateList.valueOf(color)
+                    // If the background is very light (like electric), we might want darker text, but white is usually fine for these pastels
+                    typeView.setTextColor(android.graphics.Color.WHITE)
+                }
+                
+                typesContainer.addView(typeView)
+            }
+
             imvpokerastro.setOnClickListener {
-                animateClick(it)
+                animateClick(itemView) // Animate the whole card
                 audioPoke(listPokemon)
                 nClickSelectedPokemon.selectPokemon(listPokemon)
             }
@@ -79,15 +100,15 @@ class ListPokemonAdapter(private val listPokemon: List<PokedexItemModel>) :
 
         private fun animateClick(view: View) {
             view.animate()
-                .scaleX(1.2f)
-                .scaleY(1.2f)
-                .setDuration(200)
-                .setInterpolator(android.view.animation.OvershootInterpolator())
+                .scaleX(0.95f) // Scale down slightly on click for "press" effect
+                .scaleY(0.95f)
+                .setDuration(100)
                 .withEndAction {
                     view.animate()
                         .scaleX(1.0f)
                         .scaleY(1.0f)
-                        .setDuration(200)
+                        .setDuration(150)
+                        .setInterpolator(android.view.animation.OvershootInterpolator())
                         .start()
                 }
                 .start()

@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#FF8DA1</color>
+    <color name="colorPrimaryDark">#FF7088</color>
+    <color name="colorAccent">#FFC1CC</color>
+
+    <!-- Pokedex Minimalist Palette -->
+    <color name="pokedex_bg">#FFF0F3</color>
+    <color name="pokedex_card_bg">#FFFFFF</color>
+    <color name="pokedex_text_primary">#5C4D4D</color>
+    <color name="pokedex_text_secondary">#A89B9B</color>
+    <color name="pokedex_pink_light">#FFE1E6</color>
+    <color name="pokedex_pink_soft">#FFB7C5</color>
+    <color name="pokedex_pink_bright">#FF8DA1</color>
+    <color name="pokedex_accent_blue">#BDE0FE</color>
+    <color name="pokedex_accent_purple">#CDB4DB</color>
+
+    <!-- Pokemon Type Colors (Soft/Pastel version) -->
+    <color name="type_grass">#8BC34A</color>
+    <color name="type_fire">#FF7043</color>
+    <color name="type_water">#4FC3F7</color>
+    <color name="type_bug">#9CCC65</color>
+    <color name="type_normal">#BDBDBD</color>
+    <color name="type_poison">#BA68C8</color>
+    <color name="type_electric">#FFF176</color>
+    <color name="type_ground">#D4E157</color>
+    <color name="type_fairy">#F48FB1</color>
+    <color name="type_fighting">#E57373</color>
+    <color name="type_psychic">#F06292</color>
+    <color name="type_rock">#A1887F</color>
+    <color name="type_ghost">#9575CD</color>
+    <color name="type_ice">#80DEEA</color>
+    <color name="type_dragon">#7986CB</color>
+    <color name="type_steel">#B0BEC5</color>
 </resources>
